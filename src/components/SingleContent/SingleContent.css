@@ -1,0 +1,71 @@
+.card-movie {
+  position: relative;
+}
+
+.card-movie__img {
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.card-movie__img img:hover {
+  transform: scale(1.1);
+}
+
+.card-movie__img img {
+  width: 220px;
+  max-height: 310px;
+  transition: 2s;
+}
+
+.card-movie__year {
+  font-size: 14px;
+}
+
+.card-movie__average {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.card-movie__averagered {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: red;
+}
+
+.card-movie__averagegreen {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 50%;
+  font-weight: bold;
+  background-color: green;
+}

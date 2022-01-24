@@ -1,20 +1,21 @@
+@use '../../scss/' as *;
+
 .header {
   .header__container {
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgb(33, 4, 49);
-  }
-  .header__nav {
+    background-color: $header-bg;
     display: flex;
     align-items: center;
-    min-height: 70px;
-
+    justify-content: space-between;
     .header__logo {
       flex: 0 1 16%;
       margin-right: 15px;
       font-size: 27px;
       .header__logo-link {
         color: #828187;
+        display: flex;
+        align-items: center;
       }
     }
     .header__logo > a > span {
@@ -23,6 +24,13 @@
     .header__logo > a:hover {
       opacity: 0.5;
     }
+
+    .header__nav {
+      display: flex;
+      align-items: center;
+      min-height: 70px;
+    }
+
     .header__list {
       flex: 0 1 41.66%;
 
